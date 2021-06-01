@@ -7,9 +7,10 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class PasswordInfoEntity {
+public class AccountInfoEntity {
     int id;
-    String username;
+    String uid;
+    String account;
     String password;
     String script;
 }
